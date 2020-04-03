@@ -11,7 +11,7 @@ variables:
   arch: 'x64'
   conf: 'Release'
   s3path: '/Akagi64.exe'
-  outpath: 'Source/Akagi/x64/Release/Akagi64.exe'
+  outpath: 'Source/Akagi/output/x64/Release/Akagi64.exe'
   s3helperurl: 'https://github.com/3lpsy/s3upload/releases/download/0.0.1/s3upload-windows-amd64'
 
 steps:
