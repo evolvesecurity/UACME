@@ -26,6 +26,7 @@ steps:
     solution: '$(solution)'
     configuration: 'Release'
     msbuildArchitecture: '$(arch)'
+    platform: '$(arch)'
     clean: true
 
 - task: PowerShell@2
